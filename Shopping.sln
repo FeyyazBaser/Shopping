@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopping.Entities", "Shoppi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopping.DataAccess", "Shopping.DataAccess\Shopping.DataAccess.csproj", "{F9B8A46C-3ACC-4E60-912C-BD3D4F602093}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopping.Business", "Shopping.Business\Shopping.Business.csproj", "{D6814A92-50FA-467B-8180-1E3CE464B429}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{F9B8A46C-3ACC-4E60-912C-BD3D4F602093}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9B8A46C-3ACC-4E60-912C-BD3D4F602093}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9B8A46C-3ACC-4E60-912C-BD3D4F602093}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6814A92-50FA-467B-8180-1E3CE464B429}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6814A92-50FA-467B-8180-1E3CE464B429}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6814A92-50FA-467B-8180-1E3CE464B429}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6814A92-50FA-467B-8180-1E3CE464B429}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
