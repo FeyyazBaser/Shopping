@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Shopping.Core.DataAccess;
 using Shopping.Entities.Concrete;
 
-namespace Shopping.Northwind.DataAccess.Abstract
+namespace Shopping.DataAccess.Abstract
 {
     public interface IProductDal:IEntityRepository<Product>
     {

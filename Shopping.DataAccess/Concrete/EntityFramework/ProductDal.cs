@@ -1,6 +1,6 @@
 ﻿using Shopping.Core.DataAccess.EntityFramework;
 using Shopping.Entities.Concrete;
-using Shopping.Northwind.DataAccess.Abstract;
+using Shopping.DataAccess.Abstract;
 
 namespace Shopping.DataAccess.Concrete.EntityFramework
 {

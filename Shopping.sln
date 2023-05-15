@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopping.Api", "Shopping.Api\Shopping.Api.csproj", "{3D91AB77-47C3-4AA4-83BB-5424EE8F92BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shopping.Api", "Shopping.Api\Shopping.Api.csproj", "{3D91AB77-47C3-4AA4-83BB-5424EE8F92BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopping.Core", "Shopping.Core\Shopping.Core.csproj", "{2A50C4F2-A2CF-43C8-BC93-DC4BD36E7523}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shopping.Core", "Shopping.Core\Shopping.Core.csproj", "{2A50C4F2-A2CF-43C8-BC93-DC4BD36E7523}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopping.Entities", "Shopping.Entities\Shopping.Entities.csproj", "{1326F102-542D-4015-B5CC-19A6F1380DC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shopping.Entities", "Shopping.Entities\Shopping.Entities.csproj", "{1326F102-542D-4015-B5CC-19A6F1380DC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopping.DataAccess", "Shopping.DataAccess\Shopping.DataAccess.csproj", "{F9B8A46C-3ACC-4E60-912C-BD3D4F602093}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shopping.DataAccess", "Shopping.DataAccess\Shopping.DataAccess.csproj", "{F9B8A46C-3ACC-4E60-912C-BD3D4F602093}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopping.Business", "Shopping.Business\Shopping.Business.csproj", "{D6814A92-50FA-467B-8180-1E3CE464B429}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shopping.Business", "Shopping.Business\Shopping.Business.csproj", "{D6814A92-50FA-467B-8180-1E3CE464B429}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopping.Web", "Shopping.Web\Shopping.Web.csproj", "{4E9B8A54-DDD4-43E4-9442-72E34451A743}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{D6814A92-50FA-467B-8180-1E3CE464B429}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6814A92-50FA-467B-8180-1E3CE464B429}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6814A92-50FA-467B-8180-1E3CE464B429}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E9B8A54-DDD4-43E4-9442-72E34451A743}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E9B8A54-DDD4-43E4-9442-72E34451A743}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E9B8A54-DDD4-43E4-9442-72E34451A743}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E9B8A54-DDD4-43E4-9442-72E34451A743}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
