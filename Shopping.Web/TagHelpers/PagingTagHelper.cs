@@ -30,8 +30,8 @@ namespace Shopping.Web.TagHelpers
 
             for (int i = 1; i <= PageCount; i++)
             {
-                stringBuilder.AppendFormat("<li class='{0}'>", i == CurrentPage ? "active" : "");
-                stringBuilder.AppendFormat("<a href='/product/index?page={0}&category={1}'>{2}</a>",
+                stringBuilder.AppendFormat("<li class='{0}'>", i == CurrentPage ? " page-item active" : "");
+                stringBuilder.AppendFormat("<a class='page-link' href='/product/index?page={0}&category={1}'>{2}</a>",
                     i, CurrentCategory, i);
                 stringBuilder.Append("</li>");
             }

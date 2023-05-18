@@ -73,7 +73,7 @@ namespace Shopping.Web.Controllers
             {
                 return View();
             }
-            TempData.Add("message",String.Format("Thank you {0}, you order is in process",shippingDetails.FirstName));
+            TempData.Add("message",String.Format("Thank you {0}, your order is in process",shippingDetails.FirstName));
             return View();
         }
     }

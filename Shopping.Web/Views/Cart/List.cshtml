@@ -5,13 +5,13 @@
     Layout = "~/Views/_Layout.cshtml";
 }
 <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
-<h2>Your Cart</h2>
+<h3 style="margin-top:15px">Your Cart</h3>
 <table class="table">
     <tr>
-        <td>Product Name</td>
-        <td>Unit Price</td>
-        <td>Units In Stock</td>
-        <td>Quantity</td>
+        <th>Product Name</th>
+        <th>Unit Price</th>
+        <th>Units In Stock</th>
+        <th>Quantity</th>
         <td></td>
     </tr>
     @foreach (var item in Model.Cart.CartLines)
@@ -42,8 +42,8 @@
         <td> </td>
         <td> </td>
         <td>
-            <a asp-controller="Product" asp-action="Index" class="btn btn-xs btn-default">
-                <span class="glyphicon glyphicon-Shopping.Web-cart"></span> Continue Shopping.Web
+            <a asp-controller="Product" asp-action="Index" class="btn btn-xs btn-warning">
+                <span class="glyphicon glyphicon-Shopping.Web-cart"></span> Continue Shopping
             </a>
         </td>
         <td class="text-right">
