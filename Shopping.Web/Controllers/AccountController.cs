@@ -79,7 +79,7 @@ namespace Shopping.Web.Controllers
                     loginViewModel.Password, loginViewModel.RememberMe, false).Result;
 
                 if (result.Succeeded)
-                {
+                {     
                     return RedirectToAction("Index", "Admin");
                 }
 
